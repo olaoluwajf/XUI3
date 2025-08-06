@@ -7,10 +7,11 @@ import ServicesSection from '../Components/ServicesSection.jsx'
 import ArtSection from '../Components/ArtSection.jsx'
 import ContactSection from '../Components/ContactSection.jsx'
 import FooterSection from '../Components/FooterSection.jsx'
+import './Home.css'
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
         <Navbar />
       <Hero />
       <FeaturesSection />

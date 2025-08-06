@@ -2,8 +2,10 @@ import './FeaturesSection.css';
 
 function FeaturesSection() {
     return (
-        <section className="features-section">
-            <div className="features-container">
+        <section className="features-section">            <div className="glow-green">
+                    <img src="Glow-ellipse.png" alt="glow" className='glow-image' />
+                </div>
+            <div className="features-container">    
                 <div className="features-text">
                     <h2>Elevate Your Brand in the Web3 Space with XUI3</h2>
                     <p>
@@ -12,39 +14,7 @@ function FeaturesSection() {
                 </div>
 
                 <div className="features-cards">
-                    <div className="glow-yellow"></div>
-                    <div className="feature-card">
-                        
-                        <div className="icon-container">
-                            
-                           
-                        </div>
-                        <h3>Block Chain</h3>
-                    </div>
-
-                    <div className="feature-card">
-                        <div className="glow-orange"></div>
-                        <div className="icon-container">
-
-                        </div>
-                        <h3>Decentralized marketing</h3>
-                    </div>
-
-                    <div className="feature-card">
-                        <div className="glow-blue"></div>
-                        <div className="icon-container">
-
-                        </div>
-                        <h3>Data Protection</h3>
-                    </div>
-
-                    <div className="feature-card">
-                        <div className="glow-green"></div>
-                        <div className="icon-container">
-
-                        </div>
-                        <h3>Smart Contracting</h3>
-                    </div>
+                    <img src="features.png" alt="features" />
                 </div>
             </div>
         </section>

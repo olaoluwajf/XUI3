@@ -8,7 +8,7 @@ function ContactSection () {
             <div className="contact-text">
                 <h2>Contact Us</h2>
                 <p>Ready to elevate your brand in the Web 3 space? Get in touch with us today to start your journey with XUI3.</p>
-                           <div style={{ position: 'relative', height: '400px' }}>
+                           <div className="btn" style={{ position: 'relative', height: '400px' }}>
                     <HireButton style={{ top: '10px', left: '-4px' }} />
                 </div>
             </div>

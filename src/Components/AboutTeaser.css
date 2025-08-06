@@ -12,6 +12,7 @@
   font-size: 4.8rem;
   line-height: 1.1;
   font-weight: 300;
+  max-width: 300px;
   color: #fff;
   position: relative;
   letter-spacing: -2px;
@@ -29,15 +30,10 @@ position: absolute;
 width: 129px;
 height: 43px;
 font-weight: 500;
-left: 9em;
+left: 9.4em;
 top: 105px;
 background: #00CB34;
 }
-
-/* Frame 26 */
-
-/* Auto layout */
-
 
 
 .about-section-right {
@@ -80,4 +76,16 @@ background: #00CB34;
   justify-content: center;
   align-items: center;
   font-weight: 600px;
+}
+
+@media (max-width: 768px){
+  .about-section-left h1{
+    font-size: 3em;
+    max-width: 900px;
+    margin-bottom: 20px;
+  }
+  .tag{
+    top: 2.4em;
+    left: 6em;
+  }
 }

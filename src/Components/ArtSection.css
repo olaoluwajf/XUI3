@@ -79,3 +79,24 @@
 .avatar-wrapper:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .art-section {
+    flex-direction: column;
+    align-items: center;
+    padding: .2rem 2rem 2px .2rem;
+    overflow: hidden;
+    height: 180vh;
+  }
+  .art-section-text{
+    margin-left: 2em;
+  }
+.art-section-text h2 {
+  font-size: 2.6em;
+}
+
+.art-section-images{
+  top: -35em;
+}
+
+}

@@ -52,9 +52,6 @@
 }
 
 .features-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
     position: absolute;
     width: 558.19px;
     height: 393.69px;
@@ -63,60 +60,66 @@
 
 }
 
-.feature-card {
+
+
+.glow-green {
+    height: 250px;
+    position: absolute;
+    top: 18rem;
+    left: 21.71em;
+    bottom: 0%;
+}
+
+@media (max-width: 768px) {
+
+    .features-section {
+    background: #000;
+    height: 120vh;
+}
+    .features-container {
+        display: flex;
+        flex-direction: row;
+        width: 175%;
+    }
+
+
+    .features-text {
+        max-width: 600px;
+        margin: 3rem 1rem 10rem 20rem;
+    }
+
+    .features-text h2 {
+        font-size: 1.8rem;
+        max-width: 300px;
+        font-weight: 400;
+    }
+
+    .features-text p {
+        font-size: 0.9rem;
+        line-height: 23px;
+        max-width: 280px;
+    }
+
+
+.glow-green {
     position: relative;
-    background: rgba(44, 43, 43, 0.822);
-    backdrop-filter: blur(1400rem);
-    border-radius: 20px;
-    padding: 2rem 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    z-index: 3;
-    height: 200px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: center;
+    top: -30em;
+    left: -39.45em;
 }
 
 
+.features-cards {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 290px;
+    top: 430px;
 
-.feature-card img {
+}
+
+.features-cards img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    height: 230px;
-    text-align: center;
 }
 
-.feature-card h3 {
-    font-size: 1.25rem;
-    margin: 1rem 0 0.5rem;
 }
-
-
-.icon-container {
-    width: 48px;
-    height: 48px;
-    background: transparent;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.glow-yellow {
-    border-radius: 100%;
-    width: 70%;
-    height: 250px;
-    filter: blur(190px);
-    opacity: 0.9;
-    z-index: 3;
-    position: absolute;
-    left: 7rem;
-    right: 7.14%;
-    top: -6rem;
-    bottom: 0%;
-    background: rgba(2, 105, 2, 0.815);
-}
-

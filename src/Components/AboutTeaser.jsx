@@ -5,8 +5,8 @@ function AboutTeaser() {
     <section className="about-section">
       <div className="about-section-left">
         <h1>
-          A Web3 <br />
-          Brand <br />
+          A Web3
+          Brand
           Agency <span className="tag">Full Cycle</span>
         </h1>
       </div>
