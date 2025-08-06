@@ -1,0 +1,122 @@
+.features-section {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+.features-container {
+    position: absolute;
+    width: 110%;
+    height: 80vh;
+    left: -285px;
+    color: white;
+    display: flex;
+    top: 110vh;
+    border-radius: 350px;
+    background: #141414;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.features-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    /* thickness of the border */
+    border-radius: 350px;
+    background: linear-gradient(185deg, #12e642, #05432e);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.features-text {
+    max-width: 600px;
+    margin: 3rem 2rem 10rem 22rem;
+}
+
+.features-text h2 {
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.features-text p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #aaa;
+}
+
+.features-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    position: absolute;
+    width: 558.19px;
+    height: 393.69px;
+    left: 1020px;
+    top: 106px;
+
+}
+
+.feature-card {
+    position: relative;
+    background: rgba(44, 43, 43, 0.822);
+    backdrop-filter: blur(1400rem);
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 3;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.feature-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    height: 230px;
+    text-align: center;
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+}
+
+
+.icon-container {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.glow-yellow {
+    border-radius: 100%;
+    width: 70%;
+    height: 250px;
+    filter: blur(190px);
+    opacity: 0.9;
+    z-index: 3;
+    position: absolute;
+    left: 7rem;
+    right: 7.14%;
+    top: -6rem;
+    bottom: 0%;
+    background: rgba(2, 105, 2, 0.815);
+}
+
