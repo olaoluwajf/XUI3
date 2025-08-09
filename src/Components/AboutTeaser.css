@@ -1,4 +1,4 @@
-.about-section {
+.about-teaser {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 }
 
-.about-section-left h1 {
+.about-teaser-left h1 {
   font-size: 4.8rem;
   line-height: 1.1;
   font-weight: 300;
@@ -36,11 +36,11 @@ background: #00CB34;
 }
 
 
-.about-section-right {
+.about-teaser-right {
   max-width: 480px;
 }
 
-.about-section-right p {
+.about-teaser-right p {
   font-size: 0.95rem;
   color: #d0d0d0;
   line-height: 1.7;

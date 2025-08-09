@@ -45,6 +45,10 @@ margin-bottom: 70px;
 }
 
 @media (max-width: 768px) {
+  .footer-section{
+    height: 50vh;
+  }
+  
   .footer-logo img {
     width: 300px;
   }

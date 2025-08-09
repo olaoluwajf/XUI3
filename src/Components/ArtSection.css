@@ -54,7 +54,7 @@
 
 }
 
-/* Custom sizes for variety */
+
 .span-2x2 {
   grid-column: span 2;
   grid-row: span 2;

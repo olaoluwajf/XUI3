@@ -1,0 +1,123 @@
+
+.main-services {
+  background: #000;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.services-header {
+  text-align: center;
+  max-width: 700px;
+}
+
+.services-header h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 12px;
+}
+
+.services-header p {
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.services-layout {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 320px;
+}
+.service-card {
+  background: radial-gradient(64.78% 33.36% at 51.18% -14.08%, rgba(0, 248, 50, 0.1) 0%, #121212 100%);
+  border: 1px solid rgba(0, 248, 50, 0.1); /* Green glow border */
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 4px 40px rgba(0, 260, 100, 0.2); /* Outer green glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+
+.service-icon {
+  width: 32px;
+  height: auto;
+}
+
+.service-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.services-feature {
+  flex: 1 1 320px;
+}
+
+.featue-card{
+    height: 400px;
+}
+
+.main-service-img__mss{
+position: relative;
+width: 426px;
+height: 426px;
+left: 150px;
+top: 200px;
+    filter: hue-rotate(85deg) saturate(30%);
+
+}
+
+.main-service-img__mss .img-1__mss {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.main-service-img__mss .img-2__mss {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    top: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+/* Responsive */
+@media (max-width: 900px) {
+  .services-layout {
+    flex-direction: column-reverse;
+  }
+  .main-service-img__mss {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    width: 295px;
+    left: 2rem;
+  }
+}

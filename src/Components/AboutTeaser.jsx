@@ -2,8 +2,8 @@ import './AboutTeaser.css';
 
 function AboutTeaser() {
   return (
-    <section className="about-section">
-      <div className="about-section-left">
+    <section className="about-teaser">
+      <div className="about-teaser-left">
         <h1>
           A Web3
           Brand
@@ -11,7 +11,7 @@ function AboutTeaser() {
         </h1>
       </div>
 
-      <div className="about-section-right">
+      <div className="about-teaser-right">
         <p>
           In a world where Web3 technologies are reshaping how we interact, transact, and connect, brands must adapt to stay relevant and thrive. At XUI3, we envision a future where every brand can seamlessly integrate into the decentralized landscape, achieving unparalleled engagement and trust with their audience.
         </p>

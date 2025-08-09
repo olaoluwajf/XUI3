@@ -1,0 +1,148 @@
+.services-hero {
+    background: #000;
+    color: white;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 220vh;
+    overflow: hidden;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 3rem;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.services-text {
+    position: relative;
+    max-width: 400px;
+    text-align: left;
+    left: 3rem;
+}
+
+.services-text h1 {
+    font-size: 4.3rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.about-tag {
+    display: inline-block;
+    background: #00c72f;
+    position: relative;
+    color: white;
+    font-size: 1.1rem;
+    padding: 6px 12px 6px;
+    margin: 0 8px;
+    top: -12.9rem;
+    left: 17rem;
+}
+
+.services-image {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.services-image img {
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 12rem;
+}
+
+.cards-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+
+}
+
+
+.green-curve {
+    position: absolute;
+    width: 95%;
+    height: 70vh;
+    left: -285px;
+    color: white;
+    display: flex;
+    top: 110vh;
+    border-radius: 350px;
+    background: #141414;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.green-curve::before{
+        content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    /* thickness of the border */
+    border-radius: 350px;
+    background: linear-gradient(185deg, #12e642, #05432e);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.cards-container .cards {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: auto;
+    left: 29rem;
+    top: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .services-content {
+        flex-direction: row;
+
+    }
+
+    .services-text {
+        max-width: 200px;
+        left: 2em;
+    }
+
+    .services-content h1{
+            font-size: 2.5em;
+    }
+
+    .services-image img {
+        top: 24rem;
+        margin-top: 70px;
+        max-width: 400px;
+        left: -1.8em;
+    }
+
+    .about-tag{
+        top: -8rem;
+        left: 10rem;
+    }
+
+    .green-curve {
+        top: 30rem;
+        width: 185%;
+        height: 40vh;
+    }
+    .cards-container .cards{
+left: 18rem;
+top: 50px;
+width: 50%;
+height: auto;
+    }
+}

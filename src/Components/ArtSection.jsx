@@ -13,18 +13,18 @@ function ArtSection() {
             </div>
 
             <div className="art-section-images">
-                <div className="avatar-wrapper span-2x2"><img src="/avatars/avatar1.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar2.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x2"><img src="/avatars/avatar3.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar4.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-2x1"><img src="/avatars/avatar5.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar6.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar7.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-2x2"><img src="/avatars/avatar8.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar9.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar10.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar11.png" alt='avatar' /></div>
-                <div className="avatar-wrapper span-1x1"><img src="/avatars/avatar12.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar2.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-2x2"><img src="avatar1.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x2"><img src="avatar3.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar4.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-2x1"><img src="avatar5.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar6.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar7.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-2x2"><img src="avatar8.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar9.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar10.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar11.png" alt='avatar' /></div>
+                <div className="avatar-wrapper span-1x1"><img src="avatar12.png" alt='avatar' /></div>
             </div>
 
 
