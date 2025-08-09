@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import './Navbar.css';
 import HireButton from '../Components/HireButton.jsx';
 
@@ -11,8 +12,8 @@ export default function Navbar() {
         <div className="logo">XUI3</div>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
+          <li><Link to="/about" className="link">About Us</Link></li>
+          <li><Link to="/services" className='link'>Services</Link></li>
         </div>
 <div className="button">
 <HireButton style={{ left: '1040px', top: '10px' }} />

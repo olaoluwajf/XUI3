@@ -1,5 +1,4 @@
 import Hero from '../Components/Hero'
-import Navbar from '../Components/Navbar'
 import FeaturesSection from '../Components/FeaturesSection.jsx'
 import AboutTeaser from '../Components/AboutTeaser.jsx'
 import TorsoSection from '../Components/TorsoSection.jsx'
@@ -12,7 +11,7 @@ import './Home.css'
 function Home() {
   return (
     <div className="home-container">
-        <Navbar />
+
       <Hero />
       <FeaturesSection />
       <AboutTeaser />
