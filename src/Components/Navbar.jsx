@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo"><Link to="/" className="link">XUI3</Link></div>
+        <div className="logo"><Link to="//" className="link">XUI3</Link></div>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><Link to="/about" className="link">About Us</Link></li>

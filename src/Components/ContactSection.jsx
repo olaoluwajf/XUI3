@@ -14,13 +14,11 @@ function ContactSection () {
             </div>
    <div className="contact-form">
       <form className="form-row">
-        {/* Section 1 */}
         <div className="form-section">
           <input type="text" id="full-name" name="full-name" placeholder="Full name" />
           <textarea id="details" name="details" rows="5" placeholder="Details"></textarea>
         </div>
 
-        {/* Section 2 */}
         <div className="form-section">
           <input type="email" id="email" name="email" placeholder="E-mail Address" />
 

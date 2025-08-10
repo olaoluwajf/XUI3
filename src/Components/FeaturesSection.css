@@ -23,7 +23,6 @@
     position: absolute;
     inset: 0;
     padding: 2px;
-    /* thickness of the border */
     border-radius: 350px;
     background: linear-gradient(185deg, #12e642, #05432e);
     -webkit-mask:

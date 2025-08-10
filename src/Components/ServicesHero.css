@@ -7,7 +7,7 @@
     align-items: center;
     gap: 40px;
     height: 220vh;
-    overflow: hidden;
+ 
 }
 
 .services-content {
@@ -86,7 +86,6 @@
     position: absolute;
     inset: 0;
     padding: 2px;
-    /* thickness of the border */
     border-radius: 350px;
     background: linear-gradient(185deg, #12e642, #05432e);
     -webkit-mask:
@@ -136,7 +135,7 @@
 
     .green-curve {
         top: 30rem;
-        width: 185%;
+        width: 179%;
         height: 40vh;
     }
     .cards-container .cards{
