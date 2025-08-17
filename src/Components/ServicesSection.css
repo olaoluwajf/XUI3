@@ -6,13 +6,9 @@
     display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center
+justify-content: center;
 }
 
-.services-text{
-    text-align: center;
-    max-width: 600px;
-}
 
 .services-text h2 {
     font-size: 4rem;
@@ -22,10 +18,12 @@ justify-content: center
 }
 
 .services-text p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: 200;
-    letter-spacing: -2px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: -4em;
 }
 
 .main-service-card{

@@ -3,6 +3,27 @@ import './AboutHero.css'
 export default function AboutHero() {
   return (
     <section className="about-hero">
+ <div className="green-vectors">
+  <svg
+    className="green-vectors-svg"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 727 535"
+    preserveAspectRatio="xMidYMid slice"
+  >
+    {/* Top-left curve */}
+    <path d="M 0 80 Q 180 300 360 0" className="vector-line" />
+
+    {/* Bottom-left curve */}
+    <path d="M 0 400 Q 200 250 500 535" className="vector-line" />
+
+    {/* Top-right curve */}
+    <path d="M 400 0 Q 600 280 727 40" className="vector-line" />
+
+    {/* Bottom-right curve */}
+    <path d="M 450 535 Q 650 400 927 920" className="vector-line" />
+  </svg>
+</div>
+
 
  <img src="Background.png" alt="Background" className="bg-image" />
       <img src="avatar1.png" alt="Avatar 1" className="floating-avatar top-left" />

@@ -15,8 +15,10 @@
 }
 
 .services-header h2 {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-size: 4rem;
   margin-bottom: 12px;
+  font-weight: 350;
+  letter-spacing: -2px;
 }
 
 .services-header p {
@@ -43,7 +45,7 @@
   background: radial-gradient(64.78% 33.36% at 51.18% -14.08%, rgba(0, 248, 50, 0.1) 0%, #121212 100%);
   border: 1px solid rgba(0, 248, 50, 0.1); 
   border-radius: 16px;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;

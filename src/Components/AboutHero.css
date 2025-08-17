@@ -123,33 +123,33 @@
   50% { transform: translateY(-10px); }
 }
 
+.green-vectors {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.green-vectors-svg {
+ display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;   /* stretch across full section */
+  height: 100%;  /* stretch across full section */
+
+
+}
 
 .vector-line {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.8;
-  z-index: 1;
+  fill: none;
+  stroke: #00ff66;
+  stroke-width: 1;
+  filter: drop-shadow(0 0 6px #00ff66);
 }
+  
 
-.vector-1 {
 
-
-position: absolute;
-width: 849.88px;
-height: 772.4px;
-left: 77.39px;
-top: 574.66px;
-
-border: 1.61421px solid #00F833;
-transform: rotate(74.54deg);
-
-}
-
-.vector-2 {
-  bottom: 10%;
-  right: 20%;
-}
 
 @media (max-width: 768px) {
 .about-hero{

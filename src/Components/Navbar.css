@@ -37,16 +37,26 @@
     margin-right: -32rem;
 }
 
- .link {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    transition: color 0.2s;
+.link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
- .link:hover {
-    color: #00ff88;
+.logo-link{
+    color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+} 
+
+.link:hover {
+  color: #1db954; 
+}
+
+.link.active {
+  color: white;
+  font-weight: bold;
+  background-color: #66666623;
 }
 
 .hamburger {
@@ -89,6 +99,7 @@
     max-width: 400px;
     margin: 0;
   }
+
 
   .navbar-container {
     flex-wrap: wrap;

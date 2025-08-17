@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'; // <-- use NavLink instead of Link
 import './Navbar.css';
 import HireButton from '../Components/HireButton.jsx';
 
@@ -9,17 +9,32 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo"><Link to="//" className="link">XUI3</Link></div>
+        <div className="logo">
+          <NavLink to="/" className="logo-link">XUI3</NavLink>
+        </div>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/about" className="link">About Us</Link></li>
-          <li><Link to="/services" className='link'>Services</Link></li>
+          <li>
+            <NavLink 
+              to="/about" 
+              className={({ isActive }) => `link ${isActive ? 'active' : ''}`}
+            >
+              About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
+              to="/services" 
+              className={({ isActive }) => `link ${isActive ? 'active' : ''}`}
+            >
+              Services
+            </NavLink>
+          </li>
         </div>
-<div className="button">
-<HireButton style={{ left: '1040px', top: '10px' }} />
 
-</div>
-        
+        <div className="button">
+          <HireButton style={{ left: '1040px', top: '10px' }} />
+        </div>
 
         <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
           <div className="line"></div>

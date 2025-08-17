@@ -52,14 +52,16 @@
 
 .features-cards {
     position: absolute;
-    width: 558.19px;
-    height: 393.69px;
-    left: 1020px;
-    top: 106px;
+    width: 400px;
+    height: 200px;
+    left: 1010px;
+    top: 100px;
 
 }
 
-
+.features-cards img{
+    width: 110%;
+}
 
 .glow-green {
     height: 250px;
