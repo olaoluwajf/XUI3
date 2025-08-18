@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom'; // <-- use NavLink instead of Link
+import { NavLink } from 'react-router-dom'; 
 import './Navbar.css';
 import HireButton from '../Components/HireButton.jsx';
 
@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <NavLink to="/" className="logo-link">XUI3</NavLink>
+          <NavLink to="//" className="logo-link">XUI3</NavLink>
         </div>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>

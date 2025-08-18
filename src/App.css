@@ -2,3 +2,6 @@
   scroll-behaviour: smooth;
 }
 
+html, body, #root{
+  background-color: #000;
+}

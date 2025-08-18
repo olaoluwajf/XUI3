@@ -70,12 +70,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.15rem;
 }
 
 .avatar-row img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
@@ -92,35 +92,44 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  animation: float 6s ease-in-out infinite;
   z-index: 2;
 }
 
 .top-left {
   top: 20%;
-  left: 5%;
+  left: 3%;
+width: 80px;
+height: 80px;
+border: 8.07105px solid rgba(137, 104, 231, 0.1);
+border-radius: 806.298px;
+
 }
 
 .top-right {
-  top: 25%;
-  right: 5%;
+  top: 16%;
+  right: 24%;
   width: 100px;
   height: 100px;
+  border: 8.07105px solid rgba(137, 104, 231, 0.1);
+border-radius: 806.298px;
 }
 
 .bottom-left {
-  bottom: 12%;
-  left: 5%;
+  bottom: 32%;
+  left: 1%;
+    width: 100px;
+  height: 100px;
+  border: 8.07105px solid rgba(137, 104, 231, 0.1);
+border-radius: 806.298px;
 }
 
 .bottom-right {
-  bottom: 15%;
-  right: 5%;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  top: 36%;
+  right: 4%;
+  width: 80px;
+  height: 80px;
+  border: 8.07105px solid rgba(137, 104, 231, 0.1);
+border-radius: 806.298px;
 }
 
 .green-vectors {
@@ -130,26 +139,35 @@
   pointer-events: none;
 }
 
-.green-vectors-svg {
- display: block;
+.vector-1{
+position: absolute;
+width: 900px;
+height: 800px;
+left: -520px;
+top: -210px;
+ transform: rotate(10deg);
+}
+
+.vector-2{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;   /* stretch across full section */
-  height: 100%;  /* stretch across full section */
-
-
+  left: -540px;
+  top: -540px;
+  transform: rotate(-5deg);
 }
 
-.vector-line {
-  fill: none;
-  stroke: #00ff66;
-  stroke-width: 1;
-  filter: drop-shadow(0 0 6px #00ff66);
+.vector-3{
+  position: absolute;
+  left: 860px;
+  top: -900px;
+  transform: rotate(-18deg);
 }
-  
 
-
+.vector-4{
+position: absolute;
+left: 740px;
+top: 480px;
+transform: rotate(25deg);
+}
 
 @media (max-width: 768px) {
 .about-hero{

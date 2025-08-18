@@ -31,10 +31,10 @@ margin-bottom: 70px;
 .glow-background-footer {
   position: relative;
   left: 0;
-    top: 290px;
+    top: 260px;
   border-radius: 100%;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background: radial-gradient(
     ellipse at center,
     rgb(2, 105, 2) 0%,

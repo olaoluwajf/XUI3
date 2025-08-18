@@ -10,16 +10,16 @@
   padding: 8rem 10%;
   color:white;
   position: absolute;
-      box-shadow: 0px 4px 40px rgba(0, 260, 100, 0.3); 
+      box-shadow: 0px 2px 10px rgba(0, 260, 100, 0.3); 
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .about-section::before {
     content: '';
     position: absolute;
     inset: 0;
-    padding: 2px 0 2px 0;
-  
+    padding: 0.4px 0 1px 0;
     background: linear-gradient(375deg, #12e642, #025338, rgb(6, 207, 6));
     mask:         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -35,13 +35,13 @@
 
 .about-image {
     top: -8rem;
-    left: -21rem;
+    left: -17rem;
     position: relative;
 }
 
 .about-image img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     filter: grayscale(100%);
 }
 
